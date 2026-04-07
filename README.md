@@ -9,7 +9,7 @@ For setup on Windows, see [Windows Instructions](#windows-instructions) below.
 
 ## Overview
 
-Disk2EasyFlash is a utility designed to create Commodore 64 cartridge images for modern EasyFlash cartridge hardware.
+Disk2EasyFlash is a utility designed to create Commodore 64 cartridge images for modern EasyFlash cartridge hardware. You can now create **MULTIPLE** disk images on a single CRT image.
 
 ---
 

@@ -101,9 +101,5 @@ python disk2easyflash.py --multi disk1.d64 disk2.d64 disk3.d64 output.crt
 
 Run the .exe file under Windows for the menu-driven CRT creator.
 Versions for Mac and Linux can be created using the Python script.  
-## Windows Instructions
-
-Run the .exe file under Windows for the menu-driven CRT creator.  
-Versions for Mac and Linux can be created using the Python script.
 
 <a name="windows-bottom"></a>

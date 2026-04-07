@@ -70,18 +70,18 @@ Usage
 
 The tool can be run interactively (double-click or run with no arguments) for a guided menu, or via command line as follows.  
 
-**Mode (required, pick one):  **
+**Mode (required, pick one):  **  
   --crt  / -c       Build a standard EasyFlash cartridge  
   --xbank / -x      Build an EasyFlash XBANK cartridge  
   --list            List disk contents without building anything  
   --multi           Pack multiple disks into one CRT with a boot menu (min. 2 disks)  
 
-**Bank mode (optional, pick one):  **
+**Bank mode (optional, pick one):  **  
   --normal          Full 16 KiB banks (default)  
   --low             Lower 8 KiB banks only ($8000)  
   --high            Upper 8 KiB banks only ($A000, Ultimax)  
 
-**Other options:  **
+**Other options:  **  
   --nolisting / -n  Do not add the LOAD "$" directory listing  
   --blocks-free N   Set the blocks-free count shown in the listing (default: 2)  
   --remove ID       Remove entry #ID from the listing and cartridge entirely  
@@ -92,25 +92,25 @@ The tool can be run interactively (double-click or run with no arguments) for a 
 
 NOTE: The output .crt file is always last in all modes.  
 
-**Examples:**
+**Examples:**  
 
-  Build a single-disk cartridge:
-    python disk2easyflash.py --crt game.d64 game.crt
+  Build a single-disk cartridge:  
+    python disk2easyflash.py --crt game.d64 game.crt  
 
-  Build from a .d81 image:
-    python disk2easyflash.py --crt game.d81 game.crt
+  Build from a .d81 image:  
+    python disk2easyflash.py --crt game.d81 game.crt  
 
-  Build using low bank mode:
-    python disk2easyflash.py --xbank --low game.d64 game.crt
+  Build using low bank mode:  
+    python disk2easyflash.py --xbank --low game.d64 game.crt  
 
-  List the contents of a disk image before converting:
-    python disk2easyflash.py --list game_disk.d64
+  List the contents of a disk image before converting:  
+    python disk2easyflash.py --list game_disk.d64  
 
-  Build with specific files removed/ignored:
-    python disk2easyflash.py --crt --remove 1 --ignore 3 game.d64 game.crt
+  Build with specific files removed/ignored:  
+    python disk2easyflash.py --crt --remove 1 --ignore 3 game.d64 game.crt  
 
-  Pack multiple disks into one cartridge (output .crt is always last):
-    python disk2easyflash.py --multi disk1.d64 disk2.d64 disk3.d64 output.crt
+  Pack multiple disks into one cartridge (output .crt is always last):  
+    python disk2easyflash.py --multi disk1.d64 disk2.d64 disk3.d64 output.crt  
 
 
 

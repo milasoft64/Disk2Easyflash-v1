@@ -96,12 +96,14 @@ python disk2easyflash.py --crt --remove 1 --ignore 3 game.d64 game.crt
 python disk2easyflash.py --multi disk1.d64 disk2.d64 disk3.d64 output.crt
 
 ```
+## Python Instructions
+Run the runme.bat file from command prompt or use the CLI above.
 
 ## Windows Instructions
 
 Run the .exe file under Windows for the menu-driven CRT creator. It will read disk images from the SAME folder (and subfolders). The same commands above will also work.  
 Example: **disk2easyflash.exe --crt pacman.d64 pacman.crt**  
 
-Versions for Mac and Linux can be created using the Python script.  
+Versions for Mac and Linux can be created using the Python script. 
 
 <a name="windows-bottom"></a>

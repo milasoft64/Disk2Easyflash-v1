@@ -1,7 +1,7 @@
-# Disk2EasyFlash v1.0 (unofficial)
-
-**Original Logic:** Alex Kazik
-**Enhancements:** Milasoft64.itch.io
+# Disk2EasyFlash v1.0 (unofficial)  
+**Original Logic:** Alex Kazik  
+**Enhancements:** Milasoft64.itch.io  
+Original link: https://github.com/alexkazik/disk2easyflash  
 
 ---
 
@@ -15,7 +15,7 @@ Disk2EasyFlash is a utility designed to create Commodore 64 cartridge images for
 
 ### 1. Multi-Disk Support
 
-While standard converters limit you to a single disk-to-cartridge ratio, this utility supports the inclusion of up to **26 disk images**.
+While standard converters limit you to a single disk-to-cartridge ratio, this utility supports the inclusion of up to **26 disk images**
 Each disk is assigned a letter (A–Z) within the custom bootloader.
 
 ---
@@ -33,7 +33,7 @@ The menu pulls disk headers directly from the images, displaying the actual disk
 ### 3. Enhanced Format Compatibility
 
 * **File Size Flexibility:** Handles various `.d64` variations, including the 175,531-byte extended format
-* **Multi-Format Support:** `.d64`, `.d81`, and `.m2i`
+* **Multi-Format Support:** `.d64` (up to track 40), `.d81`, and `.m2i`
 
 ---
 

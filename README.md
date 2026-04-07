@@ -95,23 +95,22 @@ NOTE: The output .crt file is always last in all modes.
 **Examples:**  
 
   Build a single-disk cartridge:  
-    python disk2easyflash.py --crt game.d64 game.crt  
+    **python disk2easyflash.py --crt game.d64 game.crt**  
 
   Build from a .d81 image:  
-    python disk2easyflash.py --crt game.d81 game.crt  
+    **python disk2easyflash.py --crt game.d81 game.crt**  
 
   Build using low bank mode:  
-    python disk2easyflash.py --xbank --low game.d64 game.crt  
+    **python disk2easyflash.py --xbank --low game.d64 game.crt**  
 
   List the contents of a disk image before converting:  
-    python disk2easyflash.py --list game_disk.d64  
+    **python disk2easyflash.py --list game_disk.d64**  
 
   Build with specific files removed/ignored:  
-    python disk2easyflash.py --crt --remove 1 --ignore 3 game.d64 game.crt  
+    **python disk2easyflash.py --crt --remove 1 --ignore 3 game.d64 game.crt**  
 
   Pack multiple disks into one cartridge (output .crt is always last):  
-    python disk2easyflash.py --multi disk1.d64 disk2.d64 disk3.d64 output.crt  
-
+    **python disk2easyflash.py --multi disk1.d64 disk2.d64 disk3.d64 output.crt**  
 
 
 ## Note on Hardware

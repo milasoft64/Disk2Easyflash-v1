@@ -1,0 +1,22 @@
+Disk2EasyFlash v1.1 (unofficial)
+Original Logic: Alex Kazik
+Enhancements: Milasoft
+
+Updates: v1.1
+Allows cartridge loads from Basic LOAD command, not just Kernal loads.
+
+
+Allows the creation of Easyflash cartridges containing multiple disk images.
+
+Instructions:
+https://github.com/milasoft64/Disk2Easyflash-v1/
+
+Quick instructions:
+python disk2easyflash.py
+or
+disk2easyflash.exe
+
+- Allows drag and drop
+- Allows over 26 disk images (space permitting)
+- Improved bugfixes
+
